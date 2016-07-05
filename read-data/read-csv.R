@@ -1,0 +1,6 @@
+paste("Current working directory:", getwd())
+conflicts <- read.csv("data/conflict.csv", header=TRUE)
+conflicts_C = ncol(conflicts)
+conflicts_R = nrow(conflicts)
+paste("Number of columns in data set:", conflicts_C)
+paste("Number of row in data set:", conflicts_R)
